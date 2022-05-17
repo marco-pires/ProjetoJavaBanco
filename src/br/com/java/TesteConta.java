@@ -3,7 +3,11 @@ package br.com.java;
 public class TesteConta {
     public static void main(String[] args) {
 
+        Conta cc = new Conta(50.0);
+        System.out.println(cc.recuperarSaldo());
+
         //Comando "new" gera um objeto em memória, "contaCorrente" é uma nova variável
+        /*
         Conta contaCorrente = new Conta();
         Conta contaPoupanca = new Conta();
         Conta contaInvestimento = new Conta();
@@ -27,6 +31,7 @@ public class TesteConta {
         System.out.println(contaCorrente.saldo);
         System.out.println(contaCorrente.cliente.nome);
         System.out.println(contaCorrente.cliente.idade);
+                 */
 
     }
 }
